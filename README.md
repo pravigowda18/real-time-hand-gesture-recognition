@@ -45,26 +45,26 @@ The system uses the relative positions of hand landmarks to determine whether ea
 
 ## 🚀 Setup and Execution Instructions
 ### 1️⃣ Clone Repository
-'''sh
+```sh
 git clone https://github.com/your-username/hand-gesture-recognition.git
 cd hand-gesture-recognition
-'''
+```
 ### 2️⃣ Create Virtual Environment (recommended)
-'''sh
+```sh
 python -m venv venv
 source venv/bin/activate    # On Linux/Mac
 venv\Scripts\activate       # On Windows
-'''
+```
  ### 3️⃣ Install Dependencies
 
- '''sh 
+ ```sh 
  pip install -r requirements.txt
-'''
+```
 
 ### 4️⃣ Run the Application
-'''sh
+```sh
 python main.py
-'''
+```
 ### 5️⃣ Controls
 - The webcam will open and display live gesture recognition.
 - Press ESC to exit
