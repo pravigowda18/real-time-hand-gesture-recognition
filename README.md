@@ -68,3 +68,28 @@ python main.py
 ### 5️⃣ Controls
 - The webcam will open and display live gesture recognition.
 - Press ESC to exit
+
+
+## 🎥 Demonstration
+<!-- Displays the demo GIF showing real-time hand gesture recognition in action -->
+<img src="demo.gif" alt="Demo of Hand Gesture Recognition"
+
+## 📂 Project Structure
+
+hand_gesture_recognition/
+│── main.py                 # Entry point
+│── requirements.txt
+│── README.md
+│
+├── gestures/
+│   ├── classifier.py        # Gesture classification logic
+│   └── utils.py             # Helper functions
+│
+├── mediapipe_utils/
+│   └── hands_detector.py    # Hand detection wrapper
+│
+├── app/
+│   └── webcam_app.py        # Webcam streaming & recognition
+│
+└── config/
+    └── settings.py          # Configuration parameters
