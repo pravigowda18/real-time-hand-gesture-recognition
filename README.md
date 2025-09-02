@@ -76,7 +76,7 @@ python main.py
 
 ## 📂 Project Structure
 
-hand_gesture_recognition/
+```hand_gesture_recognition/
 │── main.py                 # Entry point
 │── requirements.txt
 │── README.md
@@ -93,3 +93,4 @@ hand_gesture_recognition/
 │
 └── config/
     └── settings.py          # Configuration parameters
+```
